@@ -69,6 +69,25 @@
     font-size: 11px;
     font-weight: 600;
   }
+  .locked {
+    position: relative;
+    filter: blur(4px);
+    user-select: none;
+    pointer-events: none;
+  }
+  .lock-overlay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(7, 11, 20, 0.7);
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--accent);
+    z-index: 2;
+  }
   .results-table { width: 100%; border-collapse: collapse; font-size: 13px; }
   .results-table th { text-align: left; color: var(--muted); font-weight: 500; padding: 6px 4px; border-bottom: 1px solid var(--border); }
   .results-table td { padding: 7px 4px; border-bottom: 1px solid #1a2332; }
@@ -91,6 +110,7 @@
   .note { font-size: 12px; color: var(--muted); text-align: center; margin-top: 20px; }
   footer { text-align: center; margin-top: 32px; font-size: 11px; color: #4b5563; }
   .period { font-size: 12px; color: var(--muted); margin-bottom: 8px; }
+  .free-tag { font-size: 11px; color: var(--accent); margin-left: 6px; }
 </style>
 </head>
 <body>
@@ -123,29 +143,41 @@
   </div>
 
   <div class="card">
-    <h2>Today’s Picks — Nov 1</h2>
+    <h2>Today’s Picks — Nov 1 <span style="font-size:13px; color:var(--muted); font-weight:400;">(1 free)</span></h2>
+
+    <!-- Free pick -->
     <div class="pick">
       <div>
-        <div class="match">Liverpool vs Arsenal</div>
+        <div class="match">Liverpool vs Arsenal <span class="free-tag">FREE</span></div>
         <div class="meta">Premier League • 16:30</div>
       </div>
       <span class="badge">Over 1.5</span>
     </div>
-    <div class="pick">
-      <div>
-        <div class="match">Bayern Munich vs Union Berlin</div>
-        <div class="meta">Bundesliga • 15:30</div>
+
+    <!-- Locked picks -->
+    <div style="position: relative; margin-top: 4px;">
+      <div class="pick locked">
+        <div>
+          <div class="match">Bayern Munich vs Union Berlin</div>
+          <div class="meta">Bundesliga • 15:30</div>
+        </div>
+        <span class="badge">Over 1.5</span>
       </div>
-      <span class="badge">Over 1.5</span>
+      <div class="lock-overlay">🔒 Unlock with membership</div>
     </div>
-    <div class="pick">
-      <div>
-        <div class="match">Inter vs Napoli</div>
-        <div class="meta">Serie A • 20:45</div>
+
+    <div style="position: relative;">
+      <div class="pick locked">
+        <div>
+          <div class="match">Inter vs Napoli</div>
+          <div class="meta">Serie A • 20:45</div>
+        </div>
+        <span class="badge">Over 1.5</span>
       </div>
-      <span class="badge">Over 1.5</span>
+      <div class="lock-overlay">🔒 Unlock with membership</div>
     </div>
-    <p style="margin-top:10px; font-size:12px; color:var(--muted);">Picks selected for highest historical Over 1.5 probability. Full access includes reasoning.</p>
+
+    <p style="margin-top:12px; font-size:12px; color:var(--muted);">1 free pick today. Full 3 picks + reasoning unlocked for members.</p>
   </div>
 
   <div class="card">
@@ -167,7 +199,7 @@
         <tr><td>Oct 25</td><td>Inter vs Juventus</td><td>2-0</td><td class="win">W</td></tr>
       </tbody>
     </table>
-    <p style="margin-top:10px; font-size:12px; color:var(--muted);">Full graded history available to members. Sample shows typical distribution.</p>
+    <p style="margin-top:10px; font-size:12px; color:var(--muted);">Full graded history available to members.</p>
   </div>
 
   <div class="card">
@@ -178,7 +210,7 @@
   </div>
 
   <div class="price">€19 / month • Cancel anytime • Stripe</div>
-  <a class="cta" href="#" id="stripe-cta">Unlock Full Access</a>
+  <a class="cta" href="#" id="stripe-cta">Unlock Full Access (3 daily picks)</a>
 
   <p class="note">Public record. Bet responsibly. 18+ only. Past performance is not a guarantee of future results.</p>
   <footer>Goals15 • goals15.netlify.app</footer>
@@ -187,6 +219,8 @@
 <script>
 document.getElementById('stripe-cta').addEventListener('click', function(e) {
   e.preventDefault();
+  // Replace with your real Stripe Payment Link
+  // window.location.href = 'https://buy.stripe.com/your-link';
   alert('Stripe Checkout will be wired next. Send a Payment Link or Price ID and I’ll connect it.');
 });
 </script>
