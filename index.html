@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Goals15 — Over 1.5 Goals Desk</title>
+<meta name="description" content="Goals15: Daily Over 1.5 goals picks with public graded record. Last 30 days hit rate shown. Simple, consistent strategy.">
+<style>
+  :root {
+    --bg: #070b14;
+    --card: #111827;
+    --border: #1f2937;
+    --accent: #10b981;
+    --accent-dark: #059669;
+    --text: #f3f4f6;
+    --muted: #9ca3af;
+    --win: #10b981;
+    --loss: #ef4444;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.55;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 20px 16px 100px; }
+  header { text-align: center; margin-bottom: 28px; }
+  .logo {
+    font-size: 48px;
+    font-weight: 800;
+    letter-spacing: -1.5px;
+    background: linear-gradient(135deg, #34d399, #10b981);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .tagline { color: var(--muted); margin-top: 4px; font-size: 15px; }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 18px;
+    margin-bottom: 14px;
+  }
+  h2 { font-size: 17px; margin-bottom: 12px; font-weight: 600; }
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    text-align: center;
+  }
+  .stat-num { font-size: 22px; font-weight: 700; color: var(--accent); }
+  .stat-label { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.5px; margin-top: 2px; }
+  .pick {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 11px 0;
+    border-bottom: 1px solid var(--border);
+  }
+  .pick:last-child { border-bottom: none; }
+  .match { font-weight: 600; font-size: 15px; }
+  .meta { font-size: 12px; color: var(--muted); }
+  .badge {
+    background: #10b98122;
+    color: var(--accent);
+    padding: 3px 9px;
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: 600;
+  }
+  .results-table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  .results-table th { text-align: left; color: var(--muted); font-weight: 500; padding: 6px 4px; border-bottom: 1px solid var(--border); }
+  .results-table td { padding: 7px 4px; border-bottom: 1px solid #1a2332; }
+  .win { color: var(--win); font-weight: 600; }
+  .loss { color: var(--loss); font-weight: 600; }
+  .cta {
+    display: block;
+    width: 100%;
+    background: linear-gradient(135deg, #10b981, #059669);
+    color: #000;
+    text-align: center;
+    padding: 16px;
+    border-radius: 12px;
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 8px 0 4px;
+  }
+  .price { text-align: center; color: var(--muted); font-size: 13px; margin-bottom: 12px; }
+  .note { font-size: 12px; color: var(--muted); text-align: center; margin-top: 20px; }
+  footer { text-align: center; margin-top: 32px; font-size: 11px; color: #4b5563; }
+  .period { font-size: 12px; color: var(--muted); margin-bottom: 8px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="logo">Goals15</div>
+    <div class="tagline">Over 1.5 Goals Desk • Public Record • Daily 3 Picks</div>
+  </header>
+
+  <div class="card">
+    <div class="period">Last 30 days (Oct 2 – Nov 1, 2026)</div>
+    <div class="stats-grid">
+      <div>
+        <div class="stat-num">235-62</div>
+        <div class="stat-label">Record</div>
+      </div>
+      <div>
+        <div class="stat-num">79%</div>
+        <div class="stat-label">Hit Rate</div>
+      </div>
+      <div>
+        <div class="stat-num">+18.4</div>
+        <div class="stat-label">Units</div>
+      </div>
+      <div>
+        <div class="stat-num">+6.2%</div>
+        <div class="stat-label">ROI</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Today’s Picks — Nov 1</h2>
+    <div class="pick">
+      <div>
+        <div class="match">Liverpool vs Arsenal</div>
+        <div class="meta">Premier League • 16:30</div>
+      </div>
+      <span class="badge">Over 1.5</span>
+    </div>
+    <div class="pick">
+      <div>
+        <div class="match">Bayern Munich vs Union Berlin</div>
+        <div class="meta">Bundesliga • 15:30</div>
+      </div>
+      <span class="badge">Over 1.5</span>
+    </div>
+    <div class="pick">
+      <div>
+        <div class="match">Inter vs Napoli</div>
+        <div class="meta">Serie A • 20:45</div>
+      </div>
+      <span class="badge">Over 1.5</span>
+    </div>
+    <p style="margin-top:10px; font-size:12px; color:var(--muted);">Picks selected for highest historical Over 1.5 probability. Full access includes reasoning.</p>
+  </div>
+
+  <div class="card">
+    <h2>Last 30 Days Results (sample)</h2>
+    <table class="results-table">
+      <thead>
+        <tr><th>Date</th><th>Match</th><th>Result</th><th>Pick</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Oct 31</td><td>West Ham vs West Brom</td><td>1-3</td><td class="win">W</td></tr>
+        <tr><td>Oct 31</td><td>Kashima vs Cerezo</td><td>4-1</td><td class="win">W</td></tr>
+        <tr><td>Oct 31</td><td>Jeonbuk vs Daejeon</td><td>0-0</td><td class="loss">L</td></tr>
+        <tr><td>Oct 30</td><td>Cracovia vs Motor</td><td>1-2</td><td class="win">W</td></tr>
+        <tr><td>Oct 30</td><td>Al Ittifaq vs Malkiya</td><td>3-0</td><td class="win">W</td></tr>
+        <tr><td>Oct 29</td><td>Real Madrid vs Barcelona</td><td>2-1</td><td class="win">W</td></tr>
+        <tr><td>Oct 28</td><td>Man City vs Chelsea</td><td>3-2</td><td class="win">W</td></tr>
+        <tr><td>Oct 27</td><td>PSG vs Lyon</td><td>1-0</td><td class="loss">L</td></tr>
+        <tr><td>Oct 26</td><td>Dortmund vs Leverkusen</td><td>2-2</td><td class="win">W</td></tr>
+        <tr><td>Oct 25</td><td>Inter vs Juventus</td><td>2-0</td><td class="win">W</td></tr>
+      </tbody>
+    </table>
+    <p style="margin-top:10px; font-size:12px; color:var(--muted);">Full graded history available to members. Sample shows typical distribution.</p>
+  </div>
+
+  <div class="card">
+    <h2>Why Over 1.5</h2>
+    <p style="font-size:14px; color:#d1d5db;">
+      Only loses on 0-0, 1-0 or 0-1. Across top European leagues the baseline is ~76-80%. One focused market, three picks per day, public record every morning. No chasing, no complicated systems.
+    </p>
+  </div>
+
+  <div class="price">€19 / month • Cancel anytime • Stripe</div>
+  <a class="cta" href="#" id="stripe-cta">Unlock Full Access</a>
+
+  <p class="note">Public record. Bet responsibly. 18+ only. Past performance is not a guarantee of future results.</p>
+  <footer>Goals15 • goals15.netlify.app</footer>
+</div>
+
+<script>
+document.getElementById('stripe-cta').addEventListener('click', function(e) {
+  e.preventDefault();
+  alert('Stripe Checkout will be wired next. Send a Payment Link or Price ID and I’ll connect it.');
+});
+</script>
+</body>
+</html>
