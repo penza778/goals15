@@ -4,225 +4,316 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Goals15 — Over 1.5 Goals Desk</title>
-<meta name="description" content="Goals15: Daily Over 1.5 goals picks with public graded record. Last 30 days hit rate shown. Simple, consistent strategy.">
+<meta name="description" content="Goals15: daily Over 1.5 goals picks, posted before kick-off, with a public record that started at 0-0 on 2 Nov 2026.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
   :root {
-    --bg: #070b14;
-    --card: #111827;
-    --border: #1f2937;
-    --accent: #10b981;
-    --accent-dark: #059669;
-    --text: #f3f4f6;
-    --muted: #9ca3af;
-    --win: #10b981;
-    --loss: #ef4444;
+    --bg: #05070c;
+    --card: rgba(14, 18, 28, 0.75);
+    --border: rgba(255, 255, 255, 0.05);
+    --accent: #00f0a0;
+    --text: #f1f5f9;
+    --muted: #7a8ba3;
+    --win: #22c55e;
+    --loss: #f87171;
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-    background: var(--bg);
+    font-family: "Inter", system-ui, -apple-system, sans-serif;
+    background: 
+      radial-gradient(ellipse 100% 50% at 50% -10%, rgba(0, 240, 160, 0.04), transparent),
+      #05070c;
     color: var(--text);
-    line-height: 1.55;
+    line-height: 1.5;
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
   }
-  .wrap { max-width: 720px; margin: 0 auto; padding: 20px 16px 100px; }
-  header { text-align: center; margin-bottom: 28px; }
-  .logo {
-    font-size: 48px;
-    font-weight: 800;
-    letter-spacing: -1.5px;
-    background: linear-gradient(135deg, #34d399, #10b981);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  .tagline { color: var(--muted); margin-top: 4px; font-size: 15px; }
-  .card {
-    background: var(--card);
-    border: 1px solid var(--border);
-    border-radius: 16px;
-    padding: 18px;
-    margin-bottom: 14px;
-  }
-  h2 { font-size: 17px; margin-bottom: 12px; font-weight: 600; }
-  .stats-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
-    text-align: center;
-  }
-  .stat-num { font-size: 22px; font-weight: 700; color: var(--accent); }
-  .stat-label { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.5px; margin-top: 2px; }
-  .pick {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 11px 0;
-    border-bottom: 1px solid var(--border);
-  }
-  .pick:last-child { border-bottom: none; }
-  .match { font-weight: 600; font-size: 15px; }
-  .meta { font-size: 12px; color: var(--muted); }
-  .badge {
-    background: #10b98122;
-    color: var(--accent);
-    padding: 3px 9px;
-    border-radius: 20px;
-    font-size: 11px;
-    font-weight: 600;
-  }
-  .locked {
-    position: relative;
-    filter: blur(4px);
-    user-select: none;
-    pointer-events: none;
-  }
-  .lock-overlay {
-    position: absolute;
-    inset: 0;
+  .wrap { max-width: 620px; margin: 0 auto; padding: 28px 16px 140px; }
+  header { text-align: center; margin-bottom: 24px; }
+  .logo-wrap {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgba(7, 11, 20, 0.7);
-    border-radius: 8px;
-    font-size: 13px;
-    font-weight: 600;
-    color: var(--accent);
-    z-index: 2;
+    gap: 2px;
+    margin-bottom: 4px;
   }
-  .results-table { width: 100%; border-collapse: collapse; font-size: 13px; }
-  .results-table th { text-align: left; color: var(--muted); font-weight: 500; padding: 6px 4px; border-bottom: 1px solid var(--border); }
-  .results-table td { padding: 7px 4px; border-bottom: 1px solid #1a2332; }
-  .win { color: var(--win); font-weight: 600; }
-  .loss { color: var(--loss); font-weight: 600; }
-  .cta {
-    display: block;
-    width: 100%;
-    background: linear-gradient(135deg, #10b981, #059669);
-    color: #000;
+  .logo-goals {
+    font-size: 48px;
+    font-weight: 800;
+    letter-spacing: -2px;
+    color: #ffffff;
+    line-height: 1;
+  }
+  .logo-15 {
+    font-size: 48px;
+    font-weight: 800;
+    letter-spacing: -1px;
+    color: #00f0a0;
+    line-height: 1;
+    position: relative;
+    padding: 0 4px;
+  }
+  .logo-15::before {
+    content: "";
+    position: absolute;
+    inset: -2px -6px;
+    background-image: 
+      linear-gradient(90deg, transparent 49%, rgba(0,240,160,0.15) 50%, transparent 51%),
+      linear-gradient(0deg, transparent 49%, rgba(0,240,160,0.15) 50%, transparent 51%);
+    background-size: 12px 12px;
+    border-radius: 4px;
+    z-index: -1;
+  }
+  .tagline { color: var(--muted); margin-top: 6px; font-size: 13.5px; font-weight: 500; letter-spacing: 0.2px; }
+  .data-line { color: var(--accent); margin-top: 6px; font-size: 12.5px; font-weight: 600; letter-spacing: 0.1px; }
+  .tabs {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 16px;
+    background: rgba(14, 18, 28, 0.6);
+    padding: 4px;
+    border-radius: 14px;
+    border: 1px solid var(--border);
+  }
+  .tab {
+    flex: 1;
     text-align: center;
-    padding: 16px;
-    border-radius: 12px;
-    font-weight: 700;
-    font-size: 16px;
-    text-decoration: none;
-    margin: 8px 0 4px;
+    padding: 12px;
+    border-radius: 11px;
+    font-size: 14px;
+    font-weight: 650;
+    color: var(--muted);
+    cursor: pointer;
+    transition: all 0.15s ease;
   }
+  .tab.active {
+    background: rgba(0, 240, 160, 0.12);
+    color: var(--accent);
+  }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 12px;
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+  }
+  h2 { font-size: 16px; margin-bottom: 14px; font-weight: 650; letter-spacing: -0.2px; }
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2px;
+    text-align: center;
+  }
+  .stat-num { font-size: 24px; font-weight: 750; color: var(--accent); letter-spacing: -0.6px; }
+  .stat-label { font-size: 9.5px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.8px; margin-top: 3px; font-weight: 600; }
+  .pick {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 13px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.03);
+  }
+  .pick:last-child { border-bottom: none; }
+  .match { font-weight: 650; font-size: 15px; letter-spacing: -0.1px; }
+  .meta { font-size: 12px; color: var(--muted); margin-top: 2px; }
+  .badge {
+    background: rgba(0, 240, 160, 0.08);
+    color: var(--accent);
+    padding: 4px 10px;
+    border-radius: 999px;
+    font-size: 10.5px;
+    font-weight: 650;
+    border: 1px solid rgba(0, 240, 160, 0.12);
+    white-space: nowrap;
+  }
+  .research {
+    margin-top: 8px;
+    font-size: 12.5px;
+    color: #cbd5e1;
+    line-height: 1.45;
+    background: rgba(0, 240, 160, 0.04);
+    border-left: 2px solid var(--accent);
+    padding: 8px 10px;
+    border-radius: 6px;
+  }
+  .locked { position: relative; filter: blur(5px); user-select: none; pointer-events: none; }
+  .lock-overlay {
+    position: absolute; inset: 0;
+    display: flex; align-items: center; justify-content: center;
+    background: rgba(5, 7, 12, 0.55);
+    border-radius: 12px;
+    font-size: 12.5px; font-weight: 650; color: var(--accent);
+    backdrop-filter: blur(4px);
+  }
+  .day-card {
+    background: rgba(14, 18, 28, 0.55);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 14px 16px;
+    margin-bottom: 8px;
+  }
+  .day-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+    font-size: 12.5px;
+    font-weight: 650;
+    color: var(--muted);
+  }
+  .day-count { font-size: 10.5px; color: var(--accent); font-weight: 600; background: rgba(0,240,160,0.08); padding: 2px 7px; border-radius: 999px; }
+  .result-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.02);
+    font-size: 13.5px;
+  }
+  .result-row:last-child { border-bottom: none; }
+  .result-match { font-weight: 550; }
+  .result-score { color: var(--muted); font-size: 12.5px; margin-right: 10px; }
+  .win { color: var(--win); font-weight: 650; }
+  .loss { color: var(--loss); font-weight: 650; }
+  .cta {
+    display: block; width: 100%;
+    background: linear-gradient(135deg, #00f0a0, #00d48a);
+    color: #000; text-align: center; padding: 16px;
+    border-radius: 16px; font-weight: 750; font-size: 15.5px;
+    text-decoration: none; margin: 10px 0 6px;
+    box-shadow: 0 4px 20px rgba(0, 240, 160, 0.15);
+    transition: transform 0.15s ease;
+  }
+  .cta:hover { transform: translateY(-1px); }
   .price { text-align: center; color: var(--muted); font-size: 13px; margin-bottom: 12px; }
-  .note { font-size: 12px; color: var(--muted); text-align: center; margin-top: 20px; }
-  footer { text-align: center; margin-top: 32px; font-size: 11px; color: #4b5563; }
-  .period { font-size: 12px; color: var(--muted); margin-bottom: 8px; }
-  .free-tag { font-size: 11px; color: var(--accent); margin-left: 6px; }
+  .note { font-size: 12px; color: #5a6b82; text-align: center; margin-top: 24px; line-height: 1.5; }
+  footer { text-align: center; margin-top: 36px; font-size: 11.5px; color: #3d4a5c; }
+  .period { font-size: 12px; color: var(--muted); margin-bottom: 10px; }
+  .free-tag { font-size: 9px; color: var(--accent); margin-left: 6px; font-weight: 700; background: rgba(0,240,160,0.1); padding: 1px 5px; border-radius: 4px; }
+  .section-note { margin-top: 12px; font-size: 12px; color: var(--muted); }
+  .tab-content { display: none; }
+  .tab-content.active { display: block; }
+  .algo-note { font-size: 11.5px; color: var(--muted); margin-top: 6px; font-style: italic; }
+  .member-badge { display: none; background: rgba(0,240,160,0.15); color: var(--accent); padding: 4px 10px; border-radius: 999px; font-size: 11px; font-weight: 700; margin-left: 8px; }
+  .unlocked .locked { filter: none; user-select: auto; pointer-events: auto; }
+  .unlocked .lock-overlay { display: none; }
+  .empty { font-size: 13.5px; color: var(--muted); text-align: center; padding: 14px 0; }
+  .empty a { color: var(--accent); text-decoration: none; font-weight: 650; }
+  .helpline { font-size: 11.5px; color: #5a6b82; text-align: center; margin-top: 8px; }
 </style>
 </head>
 <body>
 <div class="wrap">
   <header>
-    <div class="logo">Goals15</div>
-    <div class="tagline">Over 1.5 Goals Desk • Public Record • Daily 3 Picks</div>
+    <div class="logo-wrap">
+      <span class="logo-goals">Goals</span><span class="logo-15">15</span>
+    </div>
+    <div class="tagline">Over 1.5 Goals Desk • Public Record + Research</div>
+    <div class="data-line">Public record starts 2 Nov 2026 • Every pick posted before kick-off</div>
   </header>
 
+  <div class="tabs">
+    <div class="tab active" data-tab="today">Today</div>
+    <div class="tab" data-tab="results">Results</div>
+  </div>
+
   <div class="card">
-    <div class="period">Last 30 days (Oct 2 – Nov 1, 2026)</div>
+    <div class="period" id="record-period">Public record since 2 Nov 2026</div>
     <div class="stats-grid">
-      <div>
-        <div class="stat-num">235-62</div>
-        <div class="stat-label">Record</div>
-      </div>
-      <div>
-        <div class="stat-num">79%</div>
-        <div class="stat-label">Hit Rate</div>
-      </div>
-      <div>
-        <div class="stat-num">+18.4</div>
-        <div class="stat-label">Units</div>
-      </div>
-      <div>
-        <div class="stat-num">+6.2%</div>
-        <div class="stat-label">ROI</div>
-      </div>
+      <div><div class="stat-num" id="st-record">0-0</div><div class="stat-label">Record</div></div>
+      <div><div class="stat-num" id="st-hit">–</div><div class="stat-label">Hit Rate</div></div>
+      <div><div class="stat-num" id="st-units">0.0</div><div class="stat-label">Units</div></div>
+      <div><div class="stat-num" id="st-roi">–</div><div class="stat-label">ROI</div></div>
     </div>
+    <p class="section-note" style="text-align:center; margin-top:8px;">Graded from real full-time results (90 min). Wins and losses, nothing removed. 1 unit flat stakes at the odds posted.</p>
+  </div>
+
+  <div id="today" class="tab-content active">
+    <div class="card">
+      <h2><span id="today-title">Today’s Picks</span> <span class="member-badge" id="member-badge">MEMBER</span></h2>
+      <div id="today-list"><div class="empty">Next pick posted before kick-off on X <a href="https://x.com/Goals15bet" target="_blank" rel="noopener">@Goals15bet</a></div></div>
+      <p class="section-note" id="unlock-note">1 free pick a day, posted before kick-off. The full slate is for members.</p>
+    </div>
+  </div>
+
+  <div id="results" class="tab-content">
+    <div id="results-list"><div class="day-card"><div class="empty">No graded picks yet. The record starts with the first pick on 2 Nov 2026.</div></div></div>
+    <p class="section-note" style="text-align:center; margin-top:14px;">Every pick is logged before kick-off and graded from the official full-time score.</p>
   </div>
 
   <div class="card">
-    <h2>Today’s Picks — Nov 1 <span style="font-size:13px; color:var(--muted); font-weight:400;">(1 free)</span></h2>
-
-    <!-- Free pick -->
-    <div class="pick">
-      <div>
-        <div class="match">Liverpool vs Arsenal <span class="free-tag">FREE</span></div>
-        <div class="meta">Premier League • 16:30</div>
-      </div>
-      <span class="badge">Over 1.5</span>
-    </div>
-
-    <!-- Locked picks -->
-    <div style="position: relative; margin-top: 4px;">
-      <div class="pick locked">
-        <div>
-          <div class="match">Bayern Munich vs Union Berlin</div>
-          <div class="meta">Bundesliga • 15:30</div>
-        </div>
-        <span class="badge">Over 1.5</span>
-      </div>
-      <div class="lock-overlay">🔒 Unlock with membership</div>
-    </div>
-
-    <div style="position: relative;">
-      <div class="pick locked">
-        <div>
-          <div class="match">Inter vs Napoli</div>
-          <div class="meta">Serie A • 20:45</div>
-        </div>
-        <span class="badge">Over 1.5</span>
-      </div>
-      <div class="lock-overlay">🔒 Unlock with membership</div>
-    </div>
-
-    <p style="margin-top:12px; font-size:12px; color:var(--muted);">1 free pick today. Full 3 picks + reasoning unlocked for members.</p>
+    <h2>Why Over 1.5 + How the Algo Works</h2>
+    <p style="font-size:14px; color:#e2e8f0;">Only loses on 0-0, 1-0 or 0-1. This season 75–89% of games in the 12 big European leagues have had 2+ goals (soccerstats, to 1 Nov 2026). One focused market, a public record every morning.</p>
+    <p class="algo-note" style="margin-top:10px;">Picks come from our AI engine (12+ months of LLM data), then a filter: both teams’ season Over 1.5 rate, the league rate and the live odds. If nothing passes, there is no pick.</p>
   </div>
 
-  <div class="card">
-    <h2>Last 30 Days Results (sample)</h2>
-    <table class="results-table">
-      <thead>
-        <tr><th>Date</th><th>Match</th><th>Result</th><th>Pick</th></tr>
-      </thead>
-      <tbody>
-        <tr><td>Oct 31</td><td>West Ham vs West Brom</td><td>1-3</td><td class="win">W</td></tr>
-        <tr><td>Oct 31</td><td>Kashima vs Cerezo</td><td>4-1</td><td class="win">W</td></tr>
-        <tr><td>Oct 31</td><td>Jeonbuk vs Daejeon</td><td>0-0</td><td class="loss">L</td></tr>
-        <tr><td>Oct 30</td><td>Cracovia vs Motor</td><td>1-2</td><td class="win">W</td></tr>
-        <tr><td>Oct 30</td><td>Al Ittifaq vs Malkiya</td><td>3-0</td><td class="win">W</td></tr>
-        <tr><td>Oct 29</td><td>Real Madrid vs Barcelona</td><td>2-1</td><td class="win">W</td></tr>
-        <tr><td>Oct 28</td><td>Man City vs Chelsea</td><td>3-2</td><td class="win">W</td></tr>
-        <tr><td>Oct 27</td><td>PSG vs Lyon</td><td>1-0</td><td class="loss">L</td></tr>
-        <tr><td>Oct 26</td><td>Dortmund vs Leverkusen</td><td>2-2</td><td class="win">W</td></tr>
-        <tr><td>Oct 25</td><td>Inter vs Juventus</td><td>2-0</td><td class="win">W</td></tr>
-      </tbody>
-    </table>
-    <p style="margin-top:10px; font-size:12px; color:var(--muted);">Full graded history available to members.</p>
-  </div>
-
-  <div class="card">
-    <h2>Why Over 1.5</h2>
-    <p style="font-size:14px; color:#d1d5db;">
-      Only loses on 0-0, 1-0 or 0-1. Across top European leagues the baseline is ~76-80%. One focused market, three picks per day, public record every morning. No chasing, no complicated systems.
-    </p>
-  </div>
-
-  <div class="price">€19 / month • Cancel anytime • Stripe</div>
-  <a class="cta" href="#" id="stripe-cta">Unlock Full Access (3 daily picks)</a>
-
-  <p class="note">Public record. Bet responsibly. 18+ only. Past performance is not a guarantee of future results.</p>
-  <footer>Goals15 • goals15.netlify.app</footer>
+  <div class="price">3-day free trial • then €19 / month • Cancel anytime</div>
+  <a class="cta" href="https://buy.stripe.com/fZu7sKgWj0uA76R26S4wM0a" id="stripe-cta">Start 3-Day Free Trial</a>
+  <p class="note">18+ | Gamble responsibly. Past results don’t guarantee future results. For information and entertainment only, not betting or financial advice.</p>
+  <p class="helpline">Need help? France: Joueurs Info Service 09 74 75 13 13 · UK: GamCare 0808 8020 133 · BeGambleAware.org</p>
+  <footer>Goals15 • goals15.com</footer>
 </div>
 
 <script>
-document.getElementById('stripe-cta').addEventListener('click', function(e) {
-  e.preventDefault();
-  // Replace with your real Stripe Payment Link
-  // window.location.href = 'https://buy.stripe.com/your-link';
-  alert('Stripe Checkout will be wired next. Send a Payment Link or Price ID and I’ll connect it.');
-});
+(function() {
+  document.querySelectorAll('.tab').forEach(tab => {
+    tab.addEventListener('click', () => {
+      document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+      document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+      tab.classList.add('active');
+      document.getElementById(tab.dataset.tab).classList.add('active');
+    });
+  });
+
+
+  function esc(x){return String(x==null?'':x).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
+  function settled(p){return p.result==='W'||p.result==='L';}
+  fetch('/ledger.json',{cache:'no-store'}).then(r=>r.json()).then(L=>{
+    const ps=(L.picks||[]).filter(settled);
+    const w=ps.filter(p=>p.result==='W').length, l=ps.length-w;
+    let u=0; ps.forEach(p=>{u+= p.result==='W' ? (Number(p.odds)-1) : -1;});
+    document.getElementById('st-record').textContent=w+'-'+l;
+    document.getElementById('st-hit').textContent=ps.length?Math.round(100*w/ps.length)+'%':'–';
+    document.getElementById('st-units').textContent=ps.length?((u>=0?'+':'')+u.toFixed(1)):'0.0';
+    document.getElementById('st-roi').textContent=ps.length?((u>=0?'+':'')+(100*u/ps.length).toFixed(1)+'%'):'–';
+    if(!ps.length) return;
+    const by={}; ps.forEach(p=>{(by[p.date]=by[p.date]||[]).push(p);});
+    document.getElementById('results-list').innerHTML=Object.keys(by).sort().reverse().map(d=>
+      '<div class="day-card"><div class="day-header">'+esc(d)+' <span class="day-count">'+by[d].length+' pick'+(by[d].length>1?'s':'')+'</span></div>'+
+      by[d].map(p=>'<div class="result-row"><span class="result-match">'+(p.post_url?'<a href="'+esc(p.post_url)+'" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">':'')+esc(p.match)+(p.post_url?'</a>':'')+'</span><span><span class="result-score">'+esc(p.score)+' @ '+esc(p.odds)+'</span><span class="'+(p.result==='W'?'win':'loss')+'">'+p.result+'</span></span></div>').join('')+'</div>').join('');
+  }).catch(()=>{});
+  fetch('/picks.json',{cache:'no-store'}).then(r=>r.json()).then(P=>{
+    if(!P||!P.date) return;
+    document.getElementById('today-title').textContent='Today’s Picks — '+P.date_label;
+    const f=P.free;
+    if(!f){ if(P.member_count){document.getElementById('unlock-note').textContent=P.member_count+' member pick'+(P.member_count>1?'s':'')+' today. Free pick: posted before kick-off on X @Goals15bet.';} return; }
+    let h='<div class="pick"><div style="flex:1"><div class="match">'+esc(f.match)+' <span class="free-tag">FREE</span></div>'+
+      '<div class="meta">'+esc(f.league)+' • '+esc(f.kickoff_cet)+' CET'+(f.odds?' • '+esc(f.odds)+(f.bookmaker?' ('+esc(f.bookmaker)+(f.odds_seen?', seen '+esc(f.odds_seen):'')+')':''):'')+'</div>'+
+      (f.reason?'<div class="research"><strong>Why:</strong> '+esc(f.reason)+'</div>':'')+
+      (f.post_url?'<div class="meta" style="margin-top:6px"><a href="'+esc(f.post_url)+'" target="_blank" rel="noopener" style="color:var(--accent)">Timestamped post on X</a></div>':'')+
+      '</div><span class="badge">Over 1.5</span></div>';
+    document.getElementById('today-list').innerHTML=h;
+    if(P.member_count) document.getElementById('unlock-note').textContent='+ '+P.member_count+' more Over 1.5 pick'+(P.member_count>1?'s':'')+' today for members.';
+  }).catch(()=>{});
+
+  const params = new URLSearchParams(window.location.search);
+  if (params.get('success') === 'true') {
+    localStorage.setItem('goals15_member', 'true');
+    window.history.replaceState({}, document.title, window.location.pathname);
+  }
+
+  if (localStorage.getItem('goals15_member') === 'true') {
+    document.body.classList.add('unlocked');
+    const badge = document.getElementById('member-badge');
+    if (badge) badge.style.display = 'inline-block';
+    const note = document.getElementById('unlock-note');
+    
+  }
+})();
 </script>
 </body>
 </html>
