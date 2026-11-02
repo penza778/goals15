@@ -1,1 +1,36 @@
-{}
+{
+  "date": "2026-11-02",
+  "date_label": "Mon 2 Nov",
+  "free": {
+    "match": "Atalanta vs Parma",
+    "league": "Serie A",
+    "kickoff_cet": "20:45",
+    "prob": 82,
+    "reason": "Atalanta’s last three league games produced 18 goals: 3-2 at Milan, 4-4 v Frosinone, 2-2 at Fiorentina on Thursday. They are 63% to win at home. Parma need a goal to get anything, which opens the game further. Only 0-0, 1-0 or 0-1 beats this pick."
+  },
+  "members": [
+    {
+      "match": "Lorient vs Brest",
+      "league": "Ligue 1",
+      "kickoff_cet": "20:45",
+      "prob": 76,
+      "reason": "Ligue 1’s weekend went 5-1, 5-2, 5-1, 3-1, 2-0, 2-0, 2-0 — the division is scoring. Near-even match (Lorient 38% / draw 29% / Brest 33%), both need points."
+    },
+    {
+      "match": "Newcastle vs Everton",
+      "league": "Premier League",
+      "kickoff_cet": "21:00",
+      "prob": 74,
+      "reason": "Newcastle slight favourites at home (42% / draw 27% / Everton 31%). Everton have drawn four of eight, Newcastle have split theirs 3-2-3. The Premier League’s Over 1.5 baseline is the edge here, nothing more."
+    },
+    {
+      "match": "Sassuolo vs Fiorentina",
+      "league": "Serie A",
+      "kickoff_cet": "18:30",
+      "prob": 72,
+      "reason": "Fiorentina drew 2-2 with Atalanta on Thursday. Even match (Sassuolo 34% / draw 26% / Fiorentina 40%), and even games between two mid-table sides tend to stay open."
+    }
+  ],
+  "member_count": 3,
+  "note": ""
+}
