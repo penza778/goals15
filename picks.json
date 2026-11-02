@@ -13,6 +13,76 @@
   },
   "members": [
     {
+      "match": "Benfica vs Alverca",
+      "league": "Primeira Liga",
+      "kickoff_cet": "21:15",
+      "prob": 88,
+      "odds": "1.10",
+      "bookmaker": "Bet365",
+      "odds_seen": "06:55 CET",
+      "reason": "Benfica have scored 2.9 and conceded 0.8 per game over their last ten in all competitions and have won five in a row. Alverca average 1.3 scored and 1.5 conceded over the same span. The two league meetings so far both finished 2-1 to Benfica. The 1.10 price implies 91%; we sit a little under it."
+    },
+    {
+      "match": "Heracles vs TOP Oss",
+      "league": "Eerste Divisie",
+      "kickoff_cet": "20:00",
+      "prob": 88,
+      "odds": "1.08",
+      "bookmaker": "Bet365",
+      "odds_seen": "06:55 CET",
+      "reason": "Heracles have 37 scored and 14 conceded this season, 16 scored at home. TOP Oss have 19 scored and 20 conceded. The last two meetings in this division finished 3-0 and 5-1 to Heracles. The 1.08 price implies 93%; we take 88 because Heracles have lost six of their last eight."
+    },
+    {
+      "match": "Hapoel Ramat Gan vs Maccabi Tel Aviv",
+      "league": "Ligat Ha'al",
+      "kickoff_cet": "19:00",
+      "prob": 86,
+      "odds": "1.11",
+      "bookmaker": "Bet365",
+      "odds_seen": "06:55 CET",
+      "reason": "Maccabi Tel Aviv lead the table with 24 scored and 8 conceded in eight games, three goals a game. Hapoel Ramat Gan are 12th with 7 scored and 15 conceded, so their games average 2.75 goals. The 1.11 price implies 90%."
+    },
+    {
+      "match": "Kryvbas vs Dynamo Kyiv",
+      "league": "Ukrainian Premier League",
+      "kickoff_cet": "12:00",
+      "prob": 84,
+      "odds": "1.14",
+      "bookmaker": "Bet365",
+      "odds_seen": "06:55 CET",
+      "reason": "The last six meetings all cleared 1.5 goals: 0-2, 3-1, 2-1, 0-2, 4-0 and a 5-6 in April. That is 26 goals in six games, 4.3 a game. The 1.14 price implies 88%."
+    },
+    {
+      "match": "Sporting Cristal vs FC Cajamarca",
+      "league": "Liga 1 Peru",
+      "kickoff_cet": "21:30",
+      "prob": 84,
+      "odds": "1.10",
+      "bookmaker": "Bet365",
+      "odds_seen": "06:55 CET",
+      "reason": "The only previous meeting, in May, finished 3-1 to Cajamarca, four goals. Cristal are at home and priced 1.10 for Over 1.5, which implies 91%. With one head to head to go on we stay well under the price at 84."
+    },
+    {
+      "match": "Sonderjyske vs FC Copenhagen",
+      "league": "Superliga",
+      "kickoff_cet": "19:00",
+      "prob": 83,
+      "odds": "1.14",
+      "bookmaker": "Bet365",
+      "odds_seen": "06:55 CET",
+      "reason": "The last six meetings produced 2, 3, 2, 3, 2 and 4 goals, every one clearing 1.5. Copenhagen won the August meeting 3-1. The 1.14 price implies 88%; we take 83 because three of those six games finished with exactly two goals."
+    },
+    {
+      "match": "VPS vs HJK",
+      "league": "Veikkausliiga",
+      "kickoff_cet": "17:00",
+      "prob": 82,
+      "odds": "1.12",
+      "bookmaker": "Bet365",
+      "odds_seen": "06:55 CET",
+      "reason": "HJK have 36 scored and 27 conceded in 22 games and their last five all went over 2.5, including a 6-0 win over VPS on 8 October and a 4-2 at Inter Turku. VPS have 29 scored and 22 conceded but only two of their last five cleared 1.5. The 1.12 price implies 89%; we settle at 82 on VPS's quiet run."
+    },
+    {
       "match": "Lorient vs Brest",
       "league": "Ligue 1",
       "kickoff_cet": "20:45",
@@ -43,6 +113,6 @@
       "odds_seen": "06:42 CET"
     }
   ],
-  "member_count": 3,
+  "member_count": 10,
   "note": ""
 }
