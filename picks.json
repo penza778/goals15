@@ -1,118 +1,128 @@
 {
-  "date": "2026-11-02",
-  "date_label": "Mon 2 Nov",
+  "date": "2026-11-03",
+  "date_label": "Tue 3 Nov",
   "free": {
-    "match": "Atalanta vs Parma",
-    "league": "Serie A",
-    "kickoff_cet": "20:45",
-    "prob": 82,
-    "reason": "Atalanta’s last three league games produced 18 goals: 3-2 at Milan, 4-4 v Frosinone, 2-2 at Fiorentina on Thursday. They are 63% to win at home. Parma need a goal to get anything, which opens the game further. Only 0-0, 1-0 or 0-1 beats this pick.",
-    "odds": "1.20",
+    "match": "Barcelona vs Aston Villa",
+    "league": "Champions League",
+    "kickoff_cet": "21:00",
+    "prob": 93,
+    "odds": "1.05",
     "bookmaker": "Bet365",
-    "odds_seen": "06:42 CET"
+    "odds_seen": "06:18 CET",
+    "reason": "Barcelona have scored 11 and conceded 6 in three Champions League games and have conceded in 18 straight matches in the competition. Their last ten games averaged four goals, with seven of them clearing 4.5, and they beat Alaves 6-1 on Saturday. Aston Villa are 12 scored, 3 conceded with three wins from three, and two of their three European games produced five or more goals. The 1.05 price implies 95%."
   },
   "members": [
     {
-      "match": "Benfica vs Alverca",
-      "league": "Primeira Liga",
-      "kickoff_cet": "21:15",
-      "prob": 88,
+      "match": "Anaitasuna vs Alaves",
+      "league": "Copa del Rey",
+      "kickoff_cet": "19:00",
+      "prob": 90,
+      "odds": "1.04",
+      "bookmaker": "Bet365",
+      "odds_seen": "06:20 CET",
+      "reason": "Anaitasuna play in the sixth tier, the Gipuzkoa Division de Honor, and reached this round with 5-0 and 5-2 wins over Tedeon. Alaves have not won in their last six league games and conceded six at Barcelona on Saturday, so their defence is open even with the rotation their coach has confirmed. A single-leg tie with extra time if level adds more minutes for goals. The 1.04 price implies 96%; we sit at 90 because a sixth-tier pitch can keep scores down."
+    },
+    {
+      "match": "Villarreal vs PSG",
+      "league": "Champions League",
+      "kickoff_cet": "21:00",
+      "prob": 89,
       "odds": "1.10",
       "bookmaker": "Bet365",
-      "odds_seen": "06:55 CET",
-      "reason": "Benfica have scored 2.9 and conceded 0.8 per game over their last ten in all competitions and have won five in a row. Alverca average 1.3 scored and 1.5 conceded over the same span. The two league meetings so far both finished 2-1 to Benfica. The 1.10 price implies 91%; we sit a little under it."
+      "odds_seen": "06:20 CET",
+      "reason": "PSG have scored 14 in three league-phase games, the most in the competition, and have conceded in each of them. Villarreal are 8 scored and 8 conceded, their European games average 5.3 goals and both teams have scored in all three, including a 4-3 loss at Liverpool. Villarreal have conceded in 14 straight Champions League matches. The 1.10 price implies 91%."
     },
     {
-      "match": "Heracles vs TOP Oss",
-      "league": "Eerste Divisie",
-      "kickoff_cet": "20:00",
+      "match": "LASK vs Slovan Bratislava",
+      "league": "Champions League",
+      "kickoff_cet": "21:00",
       "prob": 88,
-      "odds": "1.08",
-      "bookmaker": "Bet365",
-      "odds_seen": "06:55 CET",
-      "reason": "Heracles have 37 scored and 14 conceded this season, 16 scored at home. TOP Oss have 19 scored and 20 conceded. The last two meetings in this division finished 3-0 and 5-1 to Heracles. The 1.08 price implies 93%; we take 88 because Heracles have lost six of their last eight."
-    },
-    {
-      "match": "Hapoel Ramat Gan vs Maccabi Tel Aviv",
-      "league": "Ligat Ha'al",
-      "kickoff_cet": "19:00",
-      "prob": 86,
       "odds": "1.11",
       "bookmaker": "Bet365",
-      "odds_seen": "06:55 CET",
-      "reason": "Maccabi Tel Aviv lead the table with 24 scored and 8 conceded in eight games, three goals a game. Hapoel Ramat Gan are 12th with 7 scored and 15 conceded, so their games average 2.75 goals. The 1.11 price implies 90%."
+      "odds_seen": "06:20 CET",
+      "reason": "Slovan have lost all three league-phase games with 1 scored and 13 conceded, the worst defence in the competition, including a 6-1 at PSG. LASK are 6 scored and 9 conceded and have not kept a clean sheet in eight European games, so goals at both ends are likely. The six Champions League games these two have played produced 29 goals. The 1.11 price implies 90%."
     },
     {
-      "match": "Kryvbas vs Dynamo Kyiv",
-      "league": "Ukrainian Premier League",
-      "kickoff_cet": "12:00",
-      "prob": 84,
-      "odds": "1.14",
-      "bookmaker": "Bet365",
-      "odds_seen": "06:55 CET",
-      "reason": "The last six meetings all cleared 1.5 goals: 0-2, 3-1, 2-1, 0-2, 4-0 and a 5-6 in April. That is 26 goals in six games, 4.3 a game. The 1.14 price implies 88%."
-    },
-    {
-      "match": "Sporting Cristal vs FC Cajamarca",
-      "league": "Liga 1 Peru",
-      "kickoff_cet": "21:30",
-      "prob": 84,
+      "match": "Galatasaray vs Stuttgart",
+      "league": "Champions League",
+      "kickoff_cet": "18:45",
+      "prob": 86,
       "odds": "1.10",
       "bookmaker": "Bet365",
-      "odds_seen": "06:55 CET",
-      "reason": "The only previous meeting, in May, finished 3-1 to Cajamarca, four goals. Cristal are at home and priced 1.10 for Over 1.5, which implies 91%. With one head to head to go on we stay well under the price at 84."
+      "odds_seen": "06:18 CET",
+      "reason": "Galatasaray have conceded nine goals in three league-phase games and scored four at Lille last time out, so their games average five goals. Stuttgart have 7 scored and 2 conceded and are unbeaten on seven points. The 1.10 price implies 91%; we take 86 because Stuttgart's defence has been tight."
     },
     {
-      "match": "Sonderjyske vs FC Copenhagen",
-      "league": "Superliga",
-      "kickoff_cet": "19:00",
-      "prob": 83,
+      "match": "Bodo/Glimt vs Lille",
+      "league": "Champions League",
+      "kickoff_cet": "21:00",
+      "prob": 86,
       "odds": "1.14",
       "bookmaker": "Bet365",
-      "odds_seen": "06:55 CET",
-      "reason": "The last six meetings produced 2, 3, 2, 3, 2 and 4 goals, every one clearing 1.5. Copenhagen won the August meeting 3-1. The 1.14 price implies 88%; we take 83 because three of those six games finished with exactly two goals."
+      "odds_seen": "06:18 CET",
+      "reason": "Bodo/Glimt are 4 scored and 9 conceded, Lille 4 scored and 10 conceded, so their six league-phase games have produced 27 goals, 4.5 a game. Lille have lost five in a row in Europe. Bodo/Glimt have won their last four Champions League home games, against Manchester City, Inter, Sporting and Dortmund. The 1.14 price implies 88%."
     },
     {
-      "match": "VPS vs HJK",
-      "league": "Veikkausliiga",
-      "kickoff_cet": "17:00",
+      "match": "Man United vs Roma",
+      "league": "Champions League",
+      "kickoff_cet": "21:00",
+      "prob": 86,
+      "odds": "1.14",
+      "bookmaker": "Bet365",
+      "odds_seen": "06:20 CET",
+      "reason": "United are winless in nine, lost 4-1 at Como last time out and have conceded more than once in each of their last two European games. Roma have scored 21 in their last six matches and are 8 scored, 5 conceded in the league phase. The two Europa League meetings in 2021 finished 6-2 and 3-2. The 1.14 price implies 88%."
+    },
+    {
+      "match": "Feyenoord vs Inter",
+      "league": "Champions League",
+      "kickoff_cet": "21:00",
+      "prob": 85,
+      "odds": "1.11",
+      "bookmaker": "Bet365",
+      "odds_seen": "06:18 CET",
+      "reason": "Feyenoord have conceded eight in three league-phase games and have conceded first in their last six Champions League matches. Inter are 5 scored and 6 conceded, and both sides sit on three points so neither can play for a draw. The two meetings in March 2025 finished 0-2 and 2-1. The 1.11 price implies 90%; we settle at 85 because Feyenoord have only scored four."
+    },
+    {
+      "match": "Sirius vs Halmstad",
+      "league": "Allsvenskan",
+      "kickoff_cet": "19:00",
       "prob": 82,
+      "odds": "1.08",
+      "bookmaker": "Bet365",
+      "odds_seen": "06:18 CET",
+      "reason": "Sirius are second with 56 scored in 26 games, 2.2 a game, and Halmstad are 16th with 18 scored and 49 conceded, 1.9 conceded a game. The last two meetings finished 2-0 and 1-0 to Sirius, and over their last ten games Sirius have averaged only 1.2 goals, so the 1.08 price, which implies 93%, looks short. We sit at 82."
+    },
+    {
+      "match": "Atletico Madrid vs Bayern Munich",
+      "league": "Champions League",
+      "kickoff_cet": "21:00",
+      "prob": 80,
       "odds": "1.12",
       "bookmaker": "Bet365",
-      "odds_seen": "06:55 CET",
-      "reason": "HJK have 36 scored and 27 conceded in 22 games and their last five all went over 2.5, including a 6-0 win over VPS on 8 October and a 4-2 at Inter Turku. VPS have 29 scored and 22 conceded but only two of their last five cleared 1.5. The 1.12 price implies 89%; we settle at 82 on VPS's quiet run."
+      "odds_seen": "06:18 CET",
+      "reason": "Bayern have scored 10 and conceded 5 in the league phase and Harry Kane has scored in ten straight Champions League appearances. Atletico are 4 scored and 3 conceded, and only three of the last six meetings cleared 1.5 goals, with 1-0 finishes in three of them. Bayern are without Musiala and Luis Diaz. The 1.12 price implies 89%; we stay well under it at 80."
     },
     {
-      "match": "Lorient vs Brest",
-      "league": "Ligue 1",
-      "kickoff_cet": "20:45",
-      "prob": 76,
-      "reason": "Ligue 1’s weekend went 5-1, 5-2, 5-1, 3-1, 2-0, 2-0, 2-0 — the division is scoring. Near-even match (Lorient 38% / draw 29% / Brest 33%), both need points.",
-      "odds": "1.33",
-      "bookmaker": "Bet365",
-      "odds_seen": "06:42 CET"
-    },
-    {
-      "match": "Newcastle vs Everton",
-      "league": "Premier League",
-      "kickoff_cet": "21:00",
-      "prob": 74,
-      "reason": "Newcastle slight favourites at home (42% / draw 27% / Everton 31%). Everton have drawn four of eight, Newcastle have split theirs 3-2-3. The Premier League’s Over 1.5 baseline is the edge here, nothing more.",
+      "match": "Shakhtar vs Sporting CP",
+      "league": "Champions League",
+      "kickoff_cet": "18:45",
+      "prob": 79,
       "odds": "1.22",
       "bookmaker": "Bet365",
-      "odds_seen": "06:42 CET"
+      "odds_seen": "06:18 CET",
+      "reason": "Sporting are 7 scored and 4 conceded, with Luis Suarez scoring in all three league-phase games, and they lost 3-2 at home to LASK last time out. Shakhtar are 4 scored and 3 conceded and would move above Sporting with a win. The 1.22 price implies 82%; we take 79 because Shakhtar's games have been lower scoring."
     },
     {
-      "match": "Sassuolo vs Fiorentina",
-      "league": "Serie A",
-      "kickoff_cet": "18:30",
-      "prob": 72,
-      "reason": "Fiorentina drew 2-2 with Atalanta on Thursday. Even match (Sassuolo 34% / draw 26% / Fiorentina 40%), and even games between two mid-table sides tend to stay open.",
+      "match": "Vissel Kobe vs Ratchaburi",
+      "league": "AFC Champions League Elite",
+      "kickoff_cet": "11:00",
+      "prob": 78,
       "odds": "1.17",
       "bookmaker": "Bet365",
-      "odds_seen": "06:42 CET"
+      "odds_seen": "06:20 CET",
+      "reason": "Kobe have won all three Champions League Elite games, 2-1, 2-0 and 1-0, and beat Nagoya 3-1 at the weekend. Ratchaburi have conceded seven in three, including a 6-4 loss to Shanghai Port, but their last two games produced one goal and then none. The 1.17 price implies 85%; we take 78 on those two quiet games."
     }
   ],
-  "member_count": 10,
+  "member_count": 11,
   "note": ""
 }

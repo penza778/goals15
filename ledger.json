@@ -1,4 +1,82 @@
 {
  "record_starts": "2026-11-02",
- "picks": []
+ "picks": [
+  {
+   "date": "2026-11-02",
+   "match": "Atalanta vs Parma",
+   "score": "0-3",
+   "odds": "1.20",
+   "result": "W"
+  },
+  {
+   "date": "2026-11-02",
+   "match": "Benfica vs Alverca",
+   "score": "1-0",
+   "odds": "1.10",
+   "result": "L"
+  },
+  {
+   "date": "2026-11-02",
+   "match": "Heracles vs TOP Oss",
+   "score": "2-0",
+   "odds": "1.08",
+   "result": "W"
+  },
+  {
+   "date": "2026-11-02",
+   "match": "Hapoel Ramat Gan vs Maccabi Tel Aviv",
+   "score": "0-5",
+   "odds": "1.11",
+   "result": "W"
+  },
+  {
+   "date": "2026-11-02",
+   "match": "Kryvbas vs Dynamo Kyiv",
+   "score": "0-2",
+   "odds": "1.14",
+   "result": "W"
+  },
+  {
+   "date": "2026-11-02",
+   "match": "Sporting Cristal vs FC Cajamarca",
+   "score": "5-0",
+   "odds": "1.10",
+   "result": "W"
+  },
+  {
+   "date": "2026-11-02",
+   "match": "Sonderjyske vs FC Copenhagen",
+   "score": "0-2",
+   "odds": "1.14",
+   "result": "W"
+  },
+  {
+   "date": "2026-11-02",
+   "match": "VPS vs HJK",
+   "score": "0-4",
+   "odds": "1.12",
+   "result": "W"
+  },
+  {
+   "date": "2026-11-02",
+   "match": "Lorient vs Brest",
+   "score": "0-2",
+   "odds": "1.33",
+   "result": "W"
+  },
+  {
+   "date": "2026-11-02",
+   "match": "Newcastle vs Everton",
+   "score": "0-1",
+   "odds": "1.22",
+   "result": "L"
+  },
+  {
+   "date": "2026-11-02",
+   "match": "Sassuolo vs Fiorentina",
+   "score": "2-4",
+   "odds": "1.17",
+   "result": "W"
+  }
+ ]
 }
