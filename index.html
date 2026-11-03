@@ -80,8 +80,6 @@
   .stat-main .stat-num{font-size:clamp(40px,6vw,62px);letter-spacing:-2px}
   .stat-main .stat-label{color:var(--text)}
   .stat:not(.stat-main) .stat-num{color:var(--text)}
-  .flat{margin:18px auto 0;max-width:640px;text-align:center;font-size:13px;color:var(--muted);background:var(--panel);border:1px solid var(--line);border-radius:var(--radius-s);padding:12px 16px}
-  .flat b{font-family:var(--mono);color:var(--text);font-weight:600}
 
   /* SECTIONS */
   section{padding:64px 0}
@@ -290,7 +288,6 @@
     <div class="form-strip" id="form-strip" aria-label="Recent form"></div>
     <div class="days" id="days"></div>
     <p class="legend">Graded from real full-time results (90 min). Odds shown are the price posted with the pick.</p>
-    <p class="flat" id="flat" hidden></p>
   </section>
 
   <!-- HOW -->
@@ -343,7 +340,7 @@
       <details><summary>What do I get for free?</summary><p>One pick per day with the full research behind it, plus the complete public record. No sign-up needed.</p></details>
       <details><summary>What does membership unlock?</summary><p>The full slate of Over 1.5 picks each day, with research, for €19 a month after a 3-day free trial. Cancel anytime.</p></details>
       <details><summary>Why only Over 1.5 goals?</summary><p>It's one market we can model well. It only loses on 0–0, 1–0 or 0–1, and this season 75–89% of games in the big European leagues have had 2+ goals.</p></details>
-      <details><summary>How is the record kept?</summary><p>Every pick is posted here and on X before kick-off, then graded from the official full-time score. Nothing is removed. The win-loss record and hit rate come from that ledger. Units and ROI are shown at 1 unit flat stakes as a reference only, because your return depends on how you bet.</p></details>
+      <details><summary>How is the record kept?</summary><p>Every pick is posted here and on X before kick-off, then graded from the official full-time score. Nothing is removed. The win-loss record and hit rate come from that ledger.</p></details>
       <details><summary>When do picks go up?</summary><p>Every morning, before kick-off. If no fixture passes the filter, there is no pick that day.</p></details>
     </div>
   </section>
@@ -427,15 +424,9 @@
     const settled = all.filter(p => p.result==='W' || p.result==='L');
     const wins = settled.filter(p=>p.result==='W').length, losses = settled.length - wins;
     const hit = settled.length ? Math.round(100*wins/settled.length) : null;
-    const priced = settled.filter(p => Number(p.odds) > 1);
     const days = [...new Set(all.map(p=>p.date))].sort().reverse();
     const tiles = [[`${wins}-${losses}`,'Won-Lost'],[hit==null?'–':`${hit}%`,'Hit rate'],[`${settled.length}`,'Picks graded'],[`${days.length}`,'Match days']];
     $('stats').innerHTML = tiles.map(([n,l],i) => `<div class="stat${i?'':' stat-main'}"><div class="stat-num">${esc(n)}</div><div class="stat-label">${esc(l)}</div></div>`).join('');
-    if (priced.length === settled.length && priced.length) {
-      const u = priced.reduce((a,p)=>a+(p.result==='W'?Number(p.odds)-1:-1),0), roi = 100*u/priced.length;
-      $('flat').innerHTML = `Flat-stake reference: 1 unit on every pick at the posted odds is <b>${u>=0?'+':''}${u.toFixed(2)} units</b> (<b>${roi>=0?'+':''}${roi.toFixed(1)}%</b> ROI). Your own return depends on how you bet: stake, price and singles or accumulators.`;
-      $('flat').hidden = false;
-    }
     if (L.record_starts) $('stats-note').textContent = `Public record since ${fmtLong(L.record_starts)} · every pick posted before kick-off · graded from the full-time score`;
 
     if (!all.length) {
