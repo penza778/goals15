@@ -75,6 +75,22 @@
   .stat-num{font-family:var(--display);font-size:clamp(26px,3.6vw,38px);font-weight:700;letter-spacing:-1.2px;color:var(--green);line-height:1}
   .stat-label{font-size:11px;text-transform:uppercase;letter-spacing:1.2px;color:var(--muted);font-weight:600;margin-top:8px}
   .stats-note{text-align:center;font-size:12.5px;color:var(--dim);margin-top:12px}
+  .edge{margin:22px auto 0;max-width:720px;text-align:left;background:linear-gradient(180deg,rgba(0,240,160,.07),rgba(0,240,160,.015)),var(--panel);border:1px solid rgba(0,240,160,.25);border-radius:var(--radius);padding:22px 24px}
+  .edge h3{font-family:var(--display);font-size:clamp(20px,2.6vw,26px);letter-spacing:-.6px;line-height:1.15}
+  .edge h3 em{font-style:normal;color:var(--green)}
+  .edge-row{display:grid;grid-template-columns:150px 1fr 64px;align-items:center;gap:12px;margin-top:14px;font-size:13.5px}
+  .edge-row .nm{color:var(--muted);font-weight:600}
+  .edge-row.us .nm{color:var(--text)}
+  .edge-bar{position:relative;height:14px;background:rgba(255,255,255,.05);border-radius:99px;overflow:hidden}
+  .edge-bar i{position:absolute;top:0;bottom:0;left:0;border-radius:99px}
+  .edge-row.us .edge-bar i{background:linear-gradient(90deg,var(--green2),var(--green))}
+  .edge-row.avg .edge-bar i{background:rgba(255,255,255,.16)}
+  .edge-row.avg .edge-bar b{position:absolute;top:0;bottom:0;background:repeating-linear-gradient(45deg,rgba(255,255,255,.22) 0 4px,rgba(255,255,255,.08) 4px 8px)}
+  .edge-row .pc{font-family:var(--mono);font-weight:700;text-align:right}
+  .edge-row.us .pc{color:var(--green);font-size:16px}
+  .edge-foot{display:flex;justify-content:space-between;align-items:center;gap:16px;margin-top:18px;flex-wrap:wrap}
+  .edge-src{font-size:11.5px;color:var(--dim);max-width:400px}
+  @media (max-width:640px){.edge-row{grid-template-columns:96px 1fr 54px}.edge{padding:18px}}
   .stats{grid-template-columns:1.6fr 1fr 1fr 1fr}
   .stat-main{background:linear-gradient(180deg,rgba(0,240,160,.09),rgba(0,240,160,.02))}
   .stat-main .stat-num{font-size:clamp(40px,6vw,62px);letter-spacing:-2px}
@@ -251,6 +267,7 @@
 
     <div class="stats" id="stats"></div>
     <p class="stats-note" id="stats-note">Public record · every pick posted before kick-off · graded from the full-time score</p>
+    <div class="edge" id="edge" hidden></div>
   </header>
 
   <!-- TODAY -->
@@ -427,6 +444,14 @@
     const days = [...new Set(all.map(p=>p.date))].sort().reverse();
     const tiles = [[`${wins}-${losses}`,'Won-Lost'],[hit==null?'–':`${hit}%`,'Hit rate'],[`${settled.length}`,'Picks graded'],[`${days.length}`,'Match days']];
     $('stats').innerHTML = tiles.map(([n,l],i) => `<div class="stat${i?'':' stat-main'}"><div class="stat-num">${esc(n)}</div><div class="stat-label">${esc(l)}</div></div>`).join('');
+    if (hit != null && hit > 80) {
+      $('edge').innerHTML = `
+        <h3>Most games go Over 1.5. <em>Our picks go over more often.</em></h3>
+        <div class="edge-row us"><span class="nm">Goals15 picks</span><div class="edge-bar"><i style="width:${hit}%"></i></div><span class="pc">${hit}%</span></div>
+        <div class="edge-row avg"><span class="nm">All games worldwide</span><div class="edge-bar"><i style="width:70%"></i><b style="left:70%;width:10%"></b></div><span class="pc">70–80%</span></div>
+        <div class="edge-foot"><p class="edge-src">Goals15: ${settled.length} graded picks${L.record_starts?' since '+esc(fmtLong(L.record_starts)):''}. All games: share of matches with 2+ goals across world leagues (WinDrawWin).</p><a class="btn btn-primary" href="https://buy.stripe.com/fZu7sKgWj0uA76R26S4wM0a">Get every pick · 3 days free</a></div>`;
+      $('edge').hidden = false;
+    }
     if (L.record_starts) $('stats-note').textContent = `Public record since ${fmtLong(L.record_starts)} · every pick posted before kick-off · graded from the full-time score`;
 
     if (!all.length) {
