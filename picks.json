@@ -1,126 +1,126 @@
 {
- "date": "2026-11-04",
- "date_label": "Wed 4 Nov",
+ "date": "2026-11-05",
+ "date_label": "Thu 5 Nov",
  "free": {
-  "match": "RB Leipzig vs Man City",
-  "league": "Champions League",
-  "kickoff_cet": "21:00",
-  "prob": 91,
-  "odds": "1.08",
+  "match": "Crvena Zvezda vs Inter Escaldes",
+  "league": "Conference League",
+  "kickoff_cet": "18:45",
+  "prob": 92,
+  "odds": "1.07",
   "bookmaker": "Bet365",
-  "odds_seen": "06:18 CET",
-  "reason": "Man City have scored 9 and conceded 5 in three league-phase games (5-1 v AEK, 2-0 at Porto, 2-4 v PSG) and 13 in their last six overall. Leipzig have scored 11 and conceded 11 in their last six, including 1-4 at Real Madrid and 1-6 at Bayern. All six previous meetings went over 1.5 goals, averaging five goals a game."
+  "odds_seen": "06:20 CET",
+  "reason": "Crvena Zvezda have scored 37 and conceded 6 in 14 Serbian league games (2.64 and 0.43 a game) and drew 2-2 with Copenhagen last time out in Europe. Inter Escaldes have scored 1 and conceded 5 in their two league-phase games, losing 0-2 at Mjallby and 1-3 to Craiova. Four of Zvezda's last five games had two or more goals; Gudelj is suspended for the hosts."
  },
  "members": [
   {
-   "match": "AEK Athens vs Real Madrid",
-   "league": "Champions League",
-   "kickoff_cet": "18:45",
-   "prob": 90,
+   "match": "Benfica vs Lech Poznan",
+   "league": "Europa League",
+   "kickoff_cet": "21:00",
+   "prob": 91,
    "odds": "1.08",
    "bookmaker": "Bet365",
    "odds_seen": "06:18 CET",
-   "reason": "Real Madrid average 2.80 goals scored and 1.20 conceded over their last ten, 2.60 scored away, and are unbeaten in the league phase. AEK average 2.30 scored and 1.60 conceded, with 4.25 a game scored at home. Vinicius is suspended and Rodrygo and Mendy are out, but the price of 1.08 still implies about 93%."
+   "reason": "Benfica have scored 27 and conceded 8 in 10 league games and 10 in three league-phase wins (2-0 Milan, 4-1 Celtic, 4-1 at Omonia). Lech have conceded 9 in three Europa League games (0-4 Palace, 0-4 Leverkusen, 1-1 Sunderland) despite scoring 32 in 12 Ekstraklasa games. The two previous meetings finished 4-2 and 4-0 to Benfica. Barreiro is out and Barrenechea doubtful."
   },
   {
-   "match": "Fenerbahce vs Liverpool",
-   "league": "Champions League",
+   "match": "Lugano vs Kauno Zalgiris",
+   "league": "Conference League",
+   "kickoff_cet": "21:00",
+   "prob": 89,
+   "odds": "1.10",
+   "bookmaker": "Bet365",
+   "odds_seen": "06:20 CET",
+   "reason": "Lugano have scored 36 and conceded 10 in 12 Swiss league games (3.0 and 0.83 a game), won eight in a row and scored at least twice in each of their last ten, including 3-2 against Crvena Zvezda and 5-2 at Getafe. Kauno Zalgiris have conceded 8 in two league-phase games (0-4 at Brighton, 1-4 to Brann). Croci-Torti has said he will rotate, and Delcroix and Steffen are unavailable."
+  },
+  {
+   "match": "Atalanta vs Kairat Almaty",
+   "league": "Conference League",
    "kickoff_cet": "18:45",
    "prob": 88,
    "odds": "1.11",
    "bookmaker": "Bet365",
    "odds_seen": "06:18 CET",
-   "reason": "Liverpool average 1.90 scored and 1.30 conceded over their last ten and 3.00 scored away from home. Fenerbahce average 2.00 scored and 1.50 conceded, 2.67 scored at home, and drew 2-2 with Slavia in their last league-phase game. Both sides carry long injury lists, mostly in defence."
+   "reason": "Atalanta have scored 16 and conceded 20 in 10 Serie A games and their last five finished 0-3, 2-2, 4-4, 0-2 and 2-3, so every one of their last six had at least two goals. Kairat lost 1-5 at home to Panathinaikos and drew 1-1 at Riga, and score 2.0 a game domestically. Scamacca and Raspadori are out for Atalanta; first meeting between the clubs."
   },
   {
-   "match": "Viking vs Sabah",
-   "league": "Champions League",
+   "match": "Monaco vs Nordsjaelland",
+   "league": "Conference League",
    "kickoff_cet": "21:00",
-   "prob": 88,
-   "odds": "1.10",
+   "prob": 87,
+   "odds": "1.11",
    "bookmaker": "Bet365",
-   "odds_seen": "06:18 CET",
-   "reason": "Viking average 2.90 goals scored and 1.60 conceded over their last ten, with 4.00 scored at home in Stavanger. Their three league-phase games produced 14 goals (5 for, 9 against), including a 3-3 draw with Bayern. Sabah average 2.00 scored and 1.00 conceded and lost 1-2 to Dortmund."
+   "odds_seen": "06:20 CET",
+   "reason": "Monaco have won both league-phase games 3-0 and 2-1 but have scored one goal in their last three Ligue 1 games (12 scored, 10 conceded in 9). Nordsjaelland have scored 20 and conceded 17 in 13 Superliga games and their last five include 3-3 at Lyngby, 2-2 with CSKA Sofia and 2-3 against Midtjylland. Five of the last six for both sides went over 1.5. Idumbo and Fati are likely out for Monaco."
   },
   {
-   "match": "Cardiff vs West Ham",
-   "league": "Championship",
-   "kickoff_cet": "20:45",
+   "match": "Midtjylland vs Ajax",
+   "league": "Conference League",
+   "kickoff_cet": "18:45",
+   "prob": 87,
+   "odds": "1.12",
+   "bookmaker": "Bet365",
+   "odds_seen": "06:20 CET",
+   "reason": "Midtjylland have scored 27 and conceded 15 in 13 Superliga games (2.08 and 1.15 a game) and have not kept a clean sheet in nine matches. Ajax have scored 30 and conceded 13 in 11 Eredivisie games (2.73 a game) and won 2-0 against Atalanta last time in Europe. Five of the last six games for each side had two or more goals. Brandt is a doubt and Dolberg may miss out for Ajax; Erlic and Brumado are out for Midtjylland."
+  },
+  {
+   "match": "FC Copenhagen vs Iberia 1999",
+   "league": "Conference League",
+   "kickoff_cet": "21:00",
+   "prob": 87,
+   "odds": "1.14",
+   "bookmaker": "Bet365",
+   "odds_seen": "06:20 CET",
+   "reason": "Copenhagen have scored 28 and conceded 12 in 13 Superliga games (2.15 and 0.92 a game), beat Braga 3-0 at Parken and drew 2-2 at Crvena Zvezda; all six of their last games had two or more goals. Iberia have scored 45 and conceded 33 in 31 Georgian league games (1.45 and 1.06 a game) and five of their last six went over 1.5. Mattsson, Maseko, Nasnas and Beijmo are out for Copenhagen."
+  },
+  {
+   "match": "Trabzonspor vs Freiburg",
+   "league": "Conference League",
+   "kickoff_cet": "18:45",
+   "prob": 87,
+   "odds": "1.14",
+   "bookmaker": "Bet365",
+   "odds_seen": "06:20 CET",
+   "reason": "Trabzonspor have scored 24 and conceded 8 in 10 Super Lig games (2.4 and 0.8 a game), won seven in a row and scored at least twice in each, including 4-2 at KuPS and 4-3 at Rizespor. Freiburg have scored 18 and conceded 10 in 8 Bundesliga games and have scored and conceded in 11 of 13 competitive matches, with no clean sheet in eight. Lopes Cabral is suspended and Batagov and Malinovskyi out for the hosts; first meeting between the clubs."
+  },
+  {
+   "match": "Bayer Leverkusen vs Marseille",
+   "league": "Europa League",
+   "kickoff_cet": "21:00",
    "prob": 86,
-   "odds": "1.11",
+   "odds": "1.12",
    "bookmaker": "Bet365",
-   "odds_seen": "06:17 CET",
-   "reason": "West Ham average 2.70 goals scored and 1.40 conceded over their last ten and have taken 2.50 points a game away. Cardiff average 1.40 scored and 1.50 conceded. Eight of the last nine meetings went over 1.5 goals."
+   "odds_seen": "06:18 CET",
+   "reason": "Leverkusen have scored 18 and conceded 16 in 8 Bundesliga games (2.25 and 2.0 a game), conceding 9 in their last three league games, and are 8-0 on aggregate in the Europa League. Marseille have scored 20 in 9 Ligue 1 games (2.22 a game) but one in three Europa League games (1-4 at Besiktas, 0-1 Olympiacos, 0-1 at Sturm Graz). The Marseille away record (four losses in six) is why this sits under the price. Ben Seghir and Doue are out for Leverkusen."
   },
   {
-   "match": "Wrexham vs Middlesbrough",
-   "league": "Championship",
-   "kickoff_cet": "20:45",
+   "match": "AC Milan vs Ferencvaros",
+   "league": "Europa League",
+   "kickoff_cet": "18:45",
+   "prob": 85,
+   "odds": "1.17",
+   "bookmaker": "Bet365",
+   "odds_seen": "06:18 CET",
+   "reason": "Milan have scored 21 and conceded 12 in 10 Serie A games and their last six finished 3-1, 2-4, 0-2, 0-3, 3-2 and 0-4, all with at least two goals. Ferencvaros have scored 16 and conceded 3 in their last five, including 4-1 against Torreense and 5-0 against MTK, and have nine points from three league-phase games. Maignan is suspended and Tomori and Gabbia are out for Milan; first meeting between the clubs."
+  },
+  {
+   "match": "Crystal Palace vs Hoffenheim",
+   "league": "Europa League",
+   "kickoff_cet": "18:45",
+   "prob": 85,
+   "odds": "1.17",
+   "bookmaker": "Bet365",
+   "odds_seen": "06:18 CET",
+   "reason": "Palace have scored 9 and conceded 21 in 9 Premier League games (2.33 conceded a game) and all three of their Europa League games had four or more goals (4-0 Lech, 2-3 at Lyon, 2-2 at Besiktas). Hoffenheim have scored 14 and conceded 16 in 8 Bundesliga games and 10 of their 13 competitive games this season went over 2.5. Their league-phase results were 0-2 at OFI, 2-3 against Besiktas and 3-0 against Lyon."
+  },
+  {
+   "match": "Twente vs Pafos",
+   "league": "Conference League",
+   "kickoff_cet": "21:00",
    "prob": 84,
-   "odds": "1.20",
+   "odds": "1.12",
    "bookmaker": "Bet365",
-   "odds_seen": "06:17 CET",
-   "reason": "Middlesbrough average 2.30 goals scored over their last ten, 2.20 away, and concede 1.50 a game. Wrexham score 2.00 a game at home and concede 1.25 there. Combined that points to around 3.5 goals, with Broadhead, Cacace and Windass out for Wrexham."
-  },
-  {
-   "match": "Lens vs Como",
-   "league": "Champions League",
-   "kickoff_cet": "21:00",
-   "prob": 83,
-   "odds": "1.17",
-   "bookmaker": "Bet365",
-   "odds_seen": "06:18 CET",
-   "reason": "Como average 2.10 goals scored and 1.00 conceded over their last ten and won their league-phase games 3-2 against Feyenoord and 4-1 against Man United. Lens average 1.50 scored and 1.50 conceded and have lost their last two in the competition. Como are without Kean and Diao."
-  },
-  {
-   "match": "Flamengo vs Gremio",
-   "league": "Brasileirao Serie A",
-   "kickoff_cet": "23:30",
-   "prob": 82,
-   "odds": "1.11",
-   "bookmaker": "Bet365",
-   "odds_seen": "06:17 CET",
-   "reason": "Flamengo lead the table with 68 scored and 28 conceded in 33 games, 2.00 a game scored at home, and have scored 13 in their last five (4-1 at Vasco, 3-2 v Atletico-MG, 3-0 at Bahia). Gremio sit 16th, scoring 0.63 and conceding 1.44 a game away. Gremio's low away output is why this sits under the price."
-  },
-  {
-   "match": "Nacional Potosi vs Oriente Petrolero",
-   "league": "Copa de la Division Profesional",
-   "kickoff_cet": "23:00",
-   "prob": 80,
-   "odds": "1.17",
-   "bookmaker": "Bet365",
-   "odds_seen": "06:18 CET",
-   "reason": "Oriente Petrolero have 36 scored and 27 conceded in 20 league games this season (1.80 and 1.35 a game) and Nacional Potosi 30 scored and 28 conceded (1.50 and 1.40). Combined that is about 3 goals a game, and the game is at altitude in Potosi. The one league meeting this year finished 1-0 to Oriente."
-  },
-  {
-   "match": "Athletico Paranaense vs Vasco da Gama",
-   "league": "Brasileirao Serie A",
-   "kickoff_cet": "23:30",
-   "prob": 79,
-   "odds": "1.22",
-   "bookmaker": "Bet365",
-   "odds_seen": "06:17 CET",
-   "reason": "Athletico have 50 scored and 40 conceded in 33 games (1.52 and 1.21 a game); Vasco 40 scored and 49 conceded in 32 (1.25 and 1.53). Athletico's last five include a 4-1 win at Chapecoense and a 2-2 with Atletico-MG; Vasco's include 3-2 v Corinthians and 1-4 v Flamengo. The reverse fixture finished 1-0 to Vasco."
-  },
-  {
-   "match": "Kortrijk vs KV Mechelen",
-   "league": "Belgian Pro League",
-   "kickoff_cet": "20:30",
-   "prob": 78,
-   "odds": "1.22",
-   "bookmaker": "Bet365",
-   "odds_seen": "06:17 CET",
-   "reason": "Kortrijk have conceded 11 in their last six (0-3 at Genk, 0-3 at La Louviere, 0-2 v Zulte Waregem) while scoring 4. Mechelen have scored 10 in their last six, including 5-1 v Eupen and 4-3 v Sint-Truiden. All six previous meetings went over 1.5 goals, averaging more than four a game."
-  },
-  {
-   "match": "Slavia Praha vs Arsenal",
-   "league": "Champions League",
-   "kickoff_cet": "21:00",
-   "prob": 77,
-   "odds": "1.17",
-   "bookmaker": "Bet365",
-   "odds_seen": "06:18 CET",
-   "reason": "Arsenal have won all three league-phase games 2-0, 2-0 and 4-0 and nine straight in the league, but five of their last six wins were by two goals or fewer. Slavia have scored 2 and conceded 5 in the competition and kept five straight clean sheets domestically, so a 1-0 is the risk. Gyokeres, Odegaard and Havertz are out for Arsenal."
+   "odds_seen": "06:20 CET",
+   "reason": "Twente have scored 28 and conceded 10 in 11 Eredivisie games (2.55 a game), won 9-0 at Excelsior on Sunday and 4-1 at Lincoln in Europe, and have scored in ten straight games. Pafos have scored 9 in 8 Cypriot league games (1.13 a game) with two 0-0 draws in their last five and fewer than two goals scored in eight of their last ten, which is why this sits a few points under the price. Unnerstall, Bruns and Lemkin are out for Twente; Pepe and Goldar for Pafos."
   }
  ],
  "member_count": 11,
