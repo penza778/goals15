@@ -1,126 +1,126 @@
 {
- "date": "2026-11-06",
- "date_label": "Fri 6 Nov",
+ "date": "2026-11-07",
+ "date_label": "Sat 7 Nov",
  "free": {
-  "match": "Llandudno vs The New Saints",
-  "league": "Cymru Premier",
-  "kickoff_cet": "20:45",
+  "match": "Luzern vs Young Boys",
+  "league": "Swiss Super League",
+  "kickoff_cet": "18:00",
   "prob": 93,
-  "odds": "1.08",
+  "odds": "1.06",
   "bookmaker": "Bet365",
-  "odds_seen": "06:19 CET",
-  "reason": "The New Saints have scored 53 and conceded 6 in 15 league games (3.53 and 0.40 a game) and won all five away games before a 0-0 with Connah's Quay last week. Llandudno have lost their last five, conceding 14 in those games, and concede 1.87 a game over the season. The reverse fixture in September finished 2-1 to TNS."
+  "odds_seen": "06:21 CET",
+  "reason": "Young Boys have scored 38 in 12 league games (3.17 a game) and 16 in five away games, while Luzern concede 2.08 a game and their six home games have produced 22 goals. The last five meetings all had at least three goals, including a 3-3 in September. The Swiss Super League averages 3.8 goals a match this season, with about 86% of games reaching two goals."
  },
  "members": [
   {
-   "match": "Maccabi Tel Aviv vs Maccabi Petah Tikva",
-   "league": "Ligat Ha'al",
-   "kickoff_cet": "13:00",
+   "match": "Mainz vs Bayern Munich",
+   "league": "Bundesliga",
+   "kickoff_cet": "15:30",
    "prob": 92,
+   "odds": "1.07",
+   "bookmaker": "Bet365",
+   "odds_seen": "06:18 CET",
+   "reason": "Bayern have scored 27 in eight league games (3.38 a game) and are unbeaten. Mainz have conceded 10 in four home games and score 2.13 a game themselves, so both ends are open. The last two meetings finished 3-4 and 2-2. Bayern are without Musiala, Luis Diaz and Gnabry, which is why this is not set higher."
+  },
+  {
+   "match": "RB Leipzig vs Augsburg",
+   "league": "Bundesliga",
+   "kickoff_cet": "15:30",
+   "prob": 92,
+   "odds": "1.07",
+   "bookmaker": "Bet365",
+   "odds_seen": "06:18 CET",
+   "reason": "Leipzig have won all four home league games this season by a combined 18-0 and have scored 22 in eight games overall. Augsburg have scored in all eight of their games (2.25 a game) but concede 1.88 a game and have let in a goal in 24 consecutive away league matches. Leipzig have won the last seven meetings, including 6-0 and 2-1 last season."
+  },
+  {
+   "match": "Rosenborg vs Start",
+   "league": "Eliteserien",
+   "kickoff_cet": "18:00",
+   "prob": 91,
    "odds": "1.08",
    "bookmaker": "Bet365",
-   "odds_seen": "06:19 CET",
-   "reason": "Maccabi Tel Aviv have scored 29 in 9 league games (3.22 a game) and won 5-0 and 6-2 in their last two. Petah Tikva concede 2.33 a game and have let in 14 in their last five, including a 2-5 home defeat to Be'er Sheva. The one caution is Tel Aviv's two 0-0 draws in October."
+   "odds_seen": "06:17 CET",
+   "reason": "Rosenborg have won their last three league games 3-0 each and have scored 28 in 12 home games. Start sit bottom with 55 conceded in 25 games, including 35 in 12 away games (2.9 a game). The July meeting finished 0-3 to Rosenborg, and Rosenborg have not lost to Start in 19 competitive meetings."
   },
   {
-   "match": "Viktoria Köln vs Saarbrücken",
-   "league": "3. Liga",
-   "kickoff_cet": "19:00",
-   "prob": 90,
-   "odds": "1.12",
-   "bookmaker": "Bet365",
-   "odds_seen": "06:21 CET",
-   "reason": "Viktoria Köln have the division's best attack with 31 goals in 12 games (2.58 a game) and all six home games this season have had three or more goals. Saarbrücken score 2.33 and concede 1.75 a game, with 15 scored in six away games. Both sides have gone over 2.5 goals in 9 of 12 league games; Prokopenko is a long-term absentee for Köln."
-  },
-  {
-   "match": "Rapid Vienna vs Wolfsberger AC",
-   "league": "Austrian Bundesliga",
-   "kickoff_cet": "19:30",
+   "match": "Roma vs Sassuolo",
+   "league": "Serie A",
+   "kickoff_cet": "20:45",
    "prob": 90,
    "odds": "1.10",
    "bookmaker": "Bet365",
-   "odds_seen": "06:19 CET",
-   "reason": "Rapid have scored 33 in 11 league games (3.00 a game), won all six at home and beat Austria Lustenau 5-1 and Hartberg 3-1 in their last two home games. Wolfsberger are bottom with 8 scored and 20 conceded in 11, and Fitz is suspended. The league averages 3.18 goals a game and the September meeting finished 3-0 to Rapid."
+   "odds_seen": "06:21 CET",
+   "reason": "Roma have scored 28 in 10 Serie A games (2.80 a game) and 14 in five home games. Sassuolo have the worst defence in the league with 26 conceded in 10, and their last four games produced 6, 8, 2 and 6 goals. Serie A has had two or more goals in 85 of 100 matches this season."
   },
   {
-   "match": "Heracles vs Roda",
-   "league": "Eerste Divisie",
-   "kickoff_cet": "20:00",
-   "prob": 87,
-   "odds": "1.12",
+   "match": "PSG vs Troyes",
+   "league": "Ligue 1",
+   "kickoff_cet": "21:05",
+   "prob": 90,
+   "odds": "1.08",
+   "bookmaker": "Bet365",
+   "odds_seen": "06:18 CET",
+   "reason": "PSG have won six league games in a row, scoring 15 in their last five, and have 21 goals in nine games overall. Troyes score 0.78 a game and concede 1.78, with 16 conceded in nine. Troyes have not beaten PSG since 2001 and the last three meetings had 4, 7 and 4 goals. Dembele, Marquinhos and Kvaratskhelia are out for PSG, which keeps this below the top of the slate."
+  },
+  {
+   "match": "Orlando City vs New England",
+   "league": "MLS",
+   "kickoff_cet": "22:00",
+   "prob": 90,
+   "odds": "1.08",
    "bookmaker": "Bet365",
    "odds_seen": "06:17 CET",
-   "reason": "Heracles lead the Eerste Divisie with 39 goals in 13 games (3.00 a game) and have scored two or more in four of their last five league games, including 5-1 at MVV and 3-0 against RKC. Roda are fourth, scoring 1.31 and conceding 0.92 a game, and four of their last five league games had three or more goals. Engels is out for Heracles."
+   "reason": "Orlando have scored 62 and conceded 78 in 33 games (1.88 for, 2.36 against a game) and their last five games produced 4, 4, 4, 5 and 6 goals. New England have scored in each of their last five, including 3-2, 2-1 and 3-2 wins. The last three meetings finished 4-2, 3-4 and 3-3, and 83% of MLS games this season have had two or more goals."
   },
   {
-   "match": "Willem II vs PEC Zwolle",
-   "league": "Eredivisie",
-   "kickoff_cet": "20:00",
-   "prob": 87,
-   "odds": "1.17",
+   "match": "Inter Miami vs Charlotte",
+   "league": "MLS",
+   "kickoff_cet": "22:00",
+   "prob": 89,
+   "odds": "1.06",
    "bookmaker": "Bet365",
    "odds_seen": "06:17 CET",
-   "reason": "Willem II have conceded 39 in 11 league games (3.55 a game) and lost their last two 0-7 and 1-6. PEC Zwolle score 1.09 and concede 2.09 a game and won 4-1 against Go Ahead Eagles last month. The Eredivisie is averaging 3.82 goals a game this season with 72% of games over 2.5; Hoogma and Lackhar are out for Willem II."
+   "reason": "Inter Miami have scored 77 in 33 games (2.33 a game) and 43 in 16 at home, and a win locks the second seed. Charlotte score 1.91 a game but concede 2.0 a game away (32 in 16), and are without the suspended Saint-Maximin. The recent head to head has been low scoring (0-0 in March, 3-0 and 1-0 last year), which is why this sits below the price."
   },
   {
-   "match": "Eintracht Braunschweig vs Energie Cottbus",
-   "league": "2. Bundesliga",
-   "kickoff_cet": "18:30",
-   "prob": 86,
-   "odds": "1.12",
-   "bookmaker": "Bet365",
-   "odds_seen": "06:20 CET",
-   "reason": "Braunschweig score 1.60 and concede 1.80 a game, Cottbus 1.80 and 2.00, and 2. Bundesliga games are averaging 3.00 goals this season. Eight of the two teams' last ten league games had two or more goals. Braunschweig are missing Di Benedetto, Entrup, Jäkel, Koutsidis and Tempelmann; Cottbus are without Borgmann, Guttau and Engelhardt."
-  },
-  {
-   "match": "Oxford City vs Leicester",
-   "league": "FA Cup",
-   "kickoff_cet": "20:45",
-   "prob": 85,
-   "odds": "1.14",
-   "bookmaker": "Bet365",
-   "odds_seen": "06:19 CET",
-   "reason": "Leicester have scored in ten consecutive matches, score 1.69 and concede 1.46 a game in League One, and scored 4-0, 3-0 and 2-2 in three of their last four. Oxford City are second in the National League North with 26 scored and 11 conceded in 14 games, though they lost 1-3 at home to South Shields last week. Nelson and Stolarczyk are out for Leicester."
-  },
-  {
-   "match": "Hammarby vs Elfsborg",
-   "league": "Allsvenskan",
-   "kickoff_cet": "19:00",
-   "prob": 83,
-   "odds": "1.17",
-   "bookmaker": "Bet365",
-   "odds_seen": "06:17 CET",
-   "reason": "Hammarby have scored 56 and conceded 22 in 27 league games (2.07 and 0.81 a game) and won their last four, including 2-1 at Malmö. Elfsborg score 1.52 and concede 1.00 a game, have scored in 12 of 13 away games and are unbeaten in seven. The Allsvenskan averages 2.86 goals a game this season; the July meeting finished 2-1 to Hammarby."
-  },
-  {
-   "match": "Silkeborg vs Lyngby",
-   "league": "Danish Superliga",
-   "kickoff_cet": "19:00",
-   "prob": 83,
-   "odds": "1.18",
-   "bookmaker": "Bet365",
-   "odds_seen": "06:17 CET",
-   "reason": "Silkeborg score 1.31 and concede 1.85 a game and their last four league games produced 5, 2, 4 and 6 goals. Lyngby score 1.46 and concede 2.15 a game, with 5, 6 and 7 goals in three of their last four. The Superliga averages 3.06 goals a game this season; Lyngby top scorer Colyn is suspended."
-  },
-  {
-   "match": "Hamburger SV vs Borussia Mönchengladbach",
+   "match": "Stuttgart vs Werder Bremen",
    "league": "Bundesliga",
-   "kickoff_cet": "20:30",
-   "prob": 80,
-   "odds": "1.20",
+   "kickoff_cet": "18:30",
+   "prob": 87,
+   "odds": "1.10",
    "bookmaker": "Bet365",
-   "odds_seen": "06:19 CET",
-   "reason": "Gladbach have conceded 22 in 8 league games (2.75 a game) and four of their eight games had five or more goals. Hamburg score only 0.88 a game but concede 2.38, and the Bundesliga is averaging 3.5 goals a game this season. Both sides have long injury lists and the two meetings last season finished 0-0, which is why the estimate stays close to the price."
+   "odds_seen": "06:18 CET",
+   "reason": "Werder have scored in all eight league games and scored two or more in each of their last five, with 17 goals in total; they have also conceded in seven straight away games. Stuttgart score 1.75 a game and their last three games finished 0-1, 2-3 and 4-2. The last three meetings had 2, 4 and 3 goals."
   },
   {
-   "match": "Vejle vs Fredericia",
-   "league": "Danish 1. Division",
-   "kickoff_cet": "18:00",
-   "prob": 80,
-   "odds": "1.14",
+   "match": "Hertha Berlin vs Wolfsburg",
+   "league": "2. Bundesliga",
+   "kickoff_cet": "20:30",
+   "prob": 87,
+   "odds": "1.11",
    "bookmaker": "Bet365",
-   "odds_seen": "06:17 CET",
-   "reason": "Vejle have the division's top attack with 25 goals in 13 games (1.92 a game) and 16 scored in six home games. Fredericia score 1.62 a game but have the best defence with 9 conceded in 13, and Vejle have managed only three goals in their last three games. The September meeting finished 2-2; the estimate sits below the price for that reason."
+   "odds_seen": "06:21 CET",
+   "reason": "Hertha lead the table with 23 goals in 10 games (2.30 a game) and have scored nine in four home games. Wolfsburg have scored 25 in 10 (2.50 a game) and 11 in five away games, including a 4-4 at Nurnberg and a 5-2 at Karlsruhe. Hertha concede only 0.80 a game, which is the main caution."
+  },
+  {
+   "match": "Galatasaray vs Amedspor",
+   "league": "Süper Lig",
+   "kickoff_cet": "17:00",
+   "prob": 87,
+   "odds": "1.12",
+   "bookmaker": "Bet365",
+   "odds_seen": "06:21 CET",
+   "reason": "First and second meet: Galatasaray have scored 23 in 10 games (2.30 a game) and 11 in five home games, and Amedspor have scored 25 in 10 (2.50 a game) with 6 in four away games. Galatasaray's last three home games finished 3-1, 2-1 and 1-0, and their captain Bardakci is suspended. There is no previous league meeting to go on."
+  },
+  {
+   "match": "Slovan Bratislava vs Trencin",
+   "league": "Slovak Nike Liga",
+   "kickoff_cet": "15:30",
+   "prob": 86,
+   "odds": "1.10",
+   "bookmaker": "Bet365",
+   "odds_seen": "06:21 CET",
+   "reason": "Slovan have scored 30 in 13 league games (2.31 a game) and 14 in five at home. Trencin are bottom with 28 conceded in 13 (2.15 a game) and lost 0-5 to Kosice last week. The last two meetings finished 0-2 to Slovan and 0-2 to Trencin, and Slovan lost 0-4 at LASK in midweek."
   }
  ],
  "member_count": 11,
